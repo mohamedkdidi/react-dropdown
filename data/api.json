@@ -1,0 +1,42 @@
+{
+    "user": [
+        {
+            "id" : 1,
+            "name": "Mohamed"
+        },
+        {
+            "id" : 2,
+            "name": "Imed"
+        },
+        {
+            "id" : 3,
+            "name": "Nawfel"
+        },
+        {
+            "id" : 4,
+            "name": "Nawfel"
+        },
+        {
+            "id" : 5,
+            "name": "Achref"
+        }
+    ],
+    "food": [
+        {
+            "id" : 1,
+            "name": "Mlawi"
+        },
+        {
+            "id" : 2,
+            "name": "Kaftaji"
+        },
+        {
+            "id" : 3,
+            "name": "Chapati"
+        },
+        {
+            "id" : 4,
+            "name": "Lablabi"
+        }
+    ]
+}
