@@ -5,12 +5,20 @@ class FoodList extends React.Component {
         food: []
     }
     
-    componentDidMount() {
-        fetch('http://localhost:8000/food')
-        .then((response) => response.json())
-        .then(foodList => {
-            this.setState({ food: foodList });
-        });
+    // using promises javascript
+    // componentDidMount() {
+    //     fetch('http://localhost:8000/food')
+    //     .then((response) => response.json())
+    //     .then(foodList => {
+    //         this.setState({ food: foodList });
+    //     });
+    // }
+
+    // using the async/await syntax
+    async componentDidMount() {
+        const response = await fetch(`http://localhost:8000/food`);
+        const foodList = await response.json();
+        this.setState({ food: foodList });
     }
     
     render() {

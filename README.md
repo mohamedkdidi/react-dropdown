@@ -17,27 +17,35 @@ https://www.npmjs.com/package/json-server
 ## Cmd
 
 creat react application
+
 ```
 npx create-react-app dropdown-react
 ```
+
 install dependency for FoodDropdown
+
 ```
 npm install react-select bootstrap axios --save
 ```
+
 #### Start json server 
+    
     ```
     npx json-server --watch data/api.json --port 8000
     ```
+    
     or 
         ```
         npm install -g json-server 
 
         json-server --watch data/api.json --port 8000
         ```
+
     API user => http://localhost:8000/user
     API food => http://localhost:8000/food
 
 #### Start the app
+
 ```
 npm start
 ```
